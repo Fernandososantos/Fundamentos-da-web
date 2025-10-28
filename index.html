@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — Início</title>
+  <meta name="description" content="Plataforma da ONG Exemplo — missão, projetos e como ajudar." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">ONG Exemplo</a>
+      <button id="navToggle" class="nav-toggle" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        ☰
+      </button>
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section aria-labelledby="hero-title" class="hero">
+      <h1 id="hero-title">Transformando comunidades juntos</h1>
+      <p class="lead">A ONG Exemplo desenvolve projetos sociais que geram impacto real — participe como voluntário ou doador.</p>
+      <p><a class="btn" href="projetos.html">Conheça nossos projetos</a></p>
+    </section>
+
+    <section aria-labelledby="mission-title" class="institutional">
+      <h2 id="mission-title">Missão, Visão e Valores</h2>
+      <p>Missão: Promover inclusão social por meio de educação e capacitação.</p>
+      <p>Visão: Comunidades mais justas e sustentáveis.</p>
+      <p>Valores: Transparência, respeito, participação.</p>
+    </section>
+
+    <section aria-labelledby="impact-title" class="impact">
+      <h2 id="impact-title">Nossas conquistas</h2>
+      <ul class="cards">
+        <li>
+          <article aria-labelledby="card1">
+            <h3 id="card1">300 voluntários ativos</h3>
+            <p>Projetos nas áreas de educação e saúde.</p>
+          </article>
+        </li>
+        <li>
+          <article aria-labelledby="card2">
+            <h3 id="card2">+ R$ 200.000 captados</h3>
+            <p>Recursos aplicados em ações locais.</p>
+          </article>
+        </li>
+        <li>
+          <article aria-labelledby="card3">
+            <h3 id="card3">Relatórios públicos</h3>
+            <p>Prestação de contas transparente e acessível.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Galeria de atividades</h2>
+      <p>Imagens otimizadas (SVG/web) — exemplos de participação e oficinas.</p>
+      <ul class="gallery-grid">
+        <li>
+          <picture>
+            <source srcset="assets/images/photo1.svg" type="image/svg+xml">
+            <img src="assets/images/photo1.svg" alt="Voluntários em oficina" loading="lazy" width="400" height="250">
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source srcset="assets/images/photo2.svg" type="image/svg+xml">
+            <img src="assets/images/photo2.svg" alt="Entrega de cestas" loading="lazy" width="400" height="250">
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source srcset="assets/images/photo3.svg" type="image/svg+xml">
+            <img src="assets/images/photo3.svg" alt="Aulas para jovens" loading="lazy" width="400" height="250">
+          </picture>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <address>
+        <strong>ONG Exemplo</strong><br>
+        Rua da Solidariedade, 123 — Cidade — Estado<br>
+        <a href="mailto:contato@ongexemplo.org">contato@ongexemplo.org</a>
+      </address>
+      <nav aria-label="Links úteis">
+        <ul>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

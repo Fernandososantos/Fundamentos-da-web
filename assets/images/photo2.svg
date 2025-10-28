@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="100%" height="100%" fill="#fff7e6"/>
+  <g fill="#f39c12" font-family="sans-serif" font-size="36" text-anchor="middle">
+    <text x="50%" y="45%">Entrega de cestas</text>
+  </g>
+  <rect x="120" y="320" width="120" height="60" fill="#fff" opacity="0.6" rx="8"/>
+  <rect x="560" y="320" width="120" height="60" fill="#fff" opacity="0.6" rx="8"/>
+</svg>
