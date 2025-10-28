@@ -1,6 +1,6 @@
-# Projeto final — Plataforma ONG (Pronto para subir)
+# Projeto final — Plataforma ONG 
 
-Arquivos prontos para envio no GitHub. Remova/edite textos institucionais antes de publicar se desejar.
+
 
 ## Como subir para o GitHub (passo a passo rápido)
 1. Crie o repositório público no GitHub (ex.: `ong-exemplo`).
