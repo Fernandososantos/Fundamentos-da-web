@@ -1,32 +1,49 @@
-# Projeto final — Plataforma ONG 
+# 🌐 Fundamentos da Web — Plataforma para ONGs
+
+Projeto desenvolvido como parte da disciplina **Fundamentos da Web**, com o objetivo de aplicar na prática os principais conceitos de **HTML5, CSS3 e JavaScript**, construindo uma plataforma web completa voltada para o **gerenciamento de ONGs**.
+
+---
+
+## 🎯 Objetivo Geral
+
+Desenvolver uma plataforma web profissional que permita a ONGs **gerenciar atividades, divulgar projetos, captar recursos e engajar voluntários**, aplicando, de forma integrada, os conceitos estudados ao longo da disciplina.
+
+---
+
+## 🧩 Objetivos Específicos
+
+- Aplicar fundamentos de **HTML5** na criação de estruturas semânticas;
+- Implementar leiautes **responsivos e modernos** com **CSS3**;
+- Desenvolver interatividade e dinamismo usando **JavaScript**;
+- Simular um ambiente de **desenvolvimento profissional**, com boas práticas e versionamento no **GitHub**.
+
+---
+
+## 👥 Personas e Casos de Uso
+
+**Administrador da ONG:** gerencia informações, projetos, voluntários e doações.  
+**Voluntário:** encontra oportunidades e acompanha histórico de participação.  
+**Doador:** realiza doações online e acompanha o impacto dos projetos.  
+**Visitante:** conhece a organização e seus projetos sociais.
+
+---
+
+## ⚙️ Funcionalidades Principais
+
+- **Página Inicial (index.html):** informações institucionais, missão, visão, valores e contato;  
+- **Projetos (projetos.html):** apresenta os projetos sociais, voluntariado e doações;  
+- **Cadastro (cadastro.html):** formulário completo para novos voluntários, com validação e máscaras de input.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- **HTML5** — Estrutura semântica das páginas;  
+- **CSS3** — Estilos, responsividade e layout adaptável;  
+- **JavaScript** — Validação e interatividade;  
+- **Git & GitHub** — Versionamento e hospedagem do projeto.
+
+---
 
 
 
-## Como subir para o GitHub (passo a passo rápido)
-1. Crie o repositório público no GitHub (ex.: `ong-exemplo`).
-2. No terminal do seu projeto local:
-   ```bash
-   git init
-   git add .
-   git commit -m "Entrega final: plataforma ONG - unidade HTML5"
-   git branch -M main
-   git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
-   git push -u origin main
-   ```
-3. Caso queira usar GitHub Pages (site estático):
-   - A solução mais simples é ativar GitHub Pages nas configurações e apontar para a branch `main` e a pasta `/`.
-   - Existe também um workflow (GitHub Actions) incluso que publica em `gh-pages` automaticamente quando você faz push na `main` (requer que você crie um token se quiser usar deploy protegido). Veja `.github/workflows/gh-pages.yml`.
-
-## O que foi implementado
-- Estrutura semântica HTML5 (header, main, sections, footer).
-- 3 páginas válidas: `index.html`, `projetos.html`, `cadastro.html`.
-- Formulário com validação HTML5, máscaras (CPF, telefone, CEP) e validação completa de CPF (algoritmo) em JavaScript.
-- Preenchimento automático de endereço por CEP usando a API ViaCEP (client-side).
-- Imagens otimizadas em SVG (substitua por fotos reais se desejar).
-- CSS mobile-first e foco acessível.
-- README com instruções de deploy.
-
-## Observações finais
-- Valide seus HTML em https://validator.w3.org/ antes de entregar.
-- Substitua as imagens SVG por fotos otimizadas (webp/jpg) e adicione `srcset` para responsividade se desejar.
-- Se quiser que eu gere o `commit` e o `push` (automatizar) eu preciso de acesso ao seu GitHub — se preferir, eu gero o conjunto de comandos exatos para colar no terminal (já incluso acima).
